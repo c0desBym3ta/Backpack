@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Book.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Book.h
 iostream
 -
 string
@@ -14,21 +14,21 @@ string
 list
 -
 
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Combine.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Combine.h
 string
 -
 Book.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Book.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Book.h
 DVD.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/DVD.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/DVD.h
 
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/DVD.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/DVD.h
 iostream
 -
 string
 -
 
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Library.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Library.h
 iostream
 -
 string
@@ -36,13 +36,13 @@ string
 list
 -
 Book.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Book.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Book.h
 DVD.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/DVD.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/DVD.h
 Combine.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Combine.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Combine.h
 
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/main.cpp
+C:/Users/UserW7m3ra/Desktop/Projects/Library/main.cpp
 iostream
 -
 string
@@ -52,11 +52,11 @@ list
 vector
 -
 Book.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Book.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Book.h
 DVD.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/DVD.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/DVD.h
 Library.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Library.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Library.h
 Combine.h
-C:/Users/UserW7m3ra/Desktop/Projects/Backpack/Combine.h
+C:/Users/UserW7m3ra/Desktop/Projects/Library/Combine.h
 

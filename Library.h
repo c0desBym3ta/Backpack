@@ -19,7 +19,7 @@ public:
         string bookTitle, bookAuthor, bookEditor; int pagesNumber, num;
         string dvdTitle, dvdDirector; int duration;
         cout << "How many entries do you want to make (Book & Films included): "; cin >> num;
-        for(int i = 0; i <num ; i++){
+        for(auto i = 0; i <num ; i++){
             cout << "\nBook's title: "; cin >> bookTitle;
             cout << "Book's author: "; cin >> bookAuthor;
             cout << "Book's editor: "; cin >> bookEditor;
@@ -36,15 +36,15 @@ public:
         cout << endl;
     }
 
-    void testPrintVector(const vector<Combine> &trialvector){
+    void printLibrary(const vector<Combine> &trialvector){
         cout << "\nLIST OF AVAILABLE BOOKS" << endl;
         cout << "-----------------------" << endl;
-        for(int i = 0; i < trialvector.size(); i++)
+        for(auto i = 0; i < trialvector.size(); i++)
             cout << "[" << i+1 << "] TITLE: " << trialvector[i].getBookTitle() << ", AUTHOR: " << trialvector[i].getBookAuthor() << ", EDITOR:  " << trialvector[i].getBookEditor() << ", PAGES: " << trialvector[i].getPagesNumber() << endl;
 
         cout << "\nLIST OF AVAILABLE FILMS" << endl;
         cout << "------------------------" << endl;
-        for(int i = 0; i < trialvector.size(); i++)
+        for(auto i = 0; i < trialvector.size(); i++)
             cout << "[" << i+1 << "] TITLE: " << trialvector[i].getFilmTitle() << ", DIRECTOR: " << trialvector[i].getFilmDirector() << ", DURATION: " << trialvector[i].getDuration() << endl;
     }
 

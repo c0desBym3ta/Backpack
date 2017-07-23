@@ -13,10 +13,6 @@ using namespace std;
 class Combine : public Book, public DVD{
 public:
     Combine(string bt, string ba, string be, int pn, string ft, string fd, int dur)  : Book(bt,ba,be,pn), DVD(ft,fd,dur){}
-//    Combine(){Book::bookTitle = " "; Book::bookAuthor = " "; Book::bookEditor " "; Book::pagesNumber = 0;
-    //              DVD::filmTitle = " "; DVD::filmDirector = " "; DVD::duration = " ";}
-
-
 };
 
 #endif //BACKPACK_COMBINE_H

@@ -8,15 +8,17 @@
 #include "Combine.h"
 using namespace std;
 
+
 int main(){
     Library library;
     vector<Combine> libraryList;
-    list<Book> it;
-    //cout << "Size: " << libraryList.size() << endl;
-    library.insertToLibrary(libraryList);
-    //cout << "Size: " << libraryList.size() << endl;
-    library.testPrintVector(libraryList);
+    vector<int> vi;
 
+    library.insertToLibrary(libraryList);
+    library.printLibrary(libraryList);
+
+    cout << endl;
     system("pause");
     return 0;
 }
+
